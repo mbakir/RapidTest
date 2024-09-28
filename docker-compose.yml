@@ -1,0 +1,6 @@
+﻿services:
+  rapidtest:
+    image: rapidtest
+    build:
+      context: .
+      dockerfile: Dockerfile
